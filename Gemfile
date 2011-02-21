@@ -7,6 +7,7 @@ gem 'haml-rails' # Not haml
 gem 'hpricot'
 gem 'pg'
 gem 'ruby_parser'
+gem 'heroku'
 
 group :development do
   gem 'rspec-rails', '~> 2.1'

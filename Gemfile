@@ -10,9 +10,10 @@ gem 'ruby_parser'
 gem 'heroku'
 
 group :development do
-  gem 'rspec-rails', '~> 2.1'
+  gem 'rspec-rails', '2.0.0.beta.18'
 end
 
 group :test do
-  gem 'rspec-rails', '~> 2.1'
+  gem 'rspec-rails', '2.0.0.beta.18'
+  gem 'spork', '0.8.4'
 end
